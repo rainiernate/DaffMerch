@@ -78,7 +78,7 @@ header h1 i {
 }
 
 #cart-button:hover {
-    transform: translateY(-52px);
+    transform: translateY(-2px);
     background: var(--secondary-color);
 }
 
