@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daffodil Foundation Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Salesforce Lightning Design System -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.20.1/styles/salesforce-lightning-design-system.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1><i class="fas fa-flower"></i> Daffodil Foundation Shop</h1>
+            <div id="cart-button">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Support Our Cause</h2>
+            <p>Every purchase helps fund our mission to make a difference</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="filters">
+            <select id="category-filter" class="slds-select">
+                <option value="all">All Categories</option>
+                <option value="gardening">Gardening</option>
+                <option value="apparel">Apparel</option>
+                <option value="art">Art</option>
+                <option value="accessories">Accessories</option>
+                <option value="membership">Membership</option>
+                <option value="stationery">Stationery</option>
+            </select>
+        </div>
+        <div id="products-container">
+            <!-- Product cards will be dynamically inserted here -->
+        </div>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total">
+                <strong>Total: $<span id="total-amount">0.00</span></strong>
+            </div>
+            <form id="customer-info" class="slds-form">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="customer-name">Name</label>
+                    <div class="slds-form-element__control">
+                        <input type="text" id="customer-name" class="slds-input" required>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="customer-email">Email</label>
+                    <div class="slds-form-element__control">
+                        <input type="email" id="customer-email" class="slds-input" required>
+                    </div>
+                </div>
+            </form>
+            <button id="checkout-button" class="button">Proceed to Checkout</button>
+            <button id="close-cart" class="button secondary">Continue Shopping</button>
+        </div>
+    </div>
+
+    <!-- Salesforce Integration Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsforce/1.11.0/jsforce.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

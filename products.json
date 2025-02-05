@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Daffodil Garden Starter Kit",
+            "description": "Everything you need to start your own daffodil garden. Includes 20 premium bulbs, soil mix, and planting guide.",
+            "price": 29.99,
+            "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=600&q=80",
+            "category": "gardening"
+        },
+        {
+            "id": 2,
+            "name": "Hope Blooms T-Shirt",
+            "description": "100% organic cotton t-shirt featuring our signature daffodil design. Available in sizes S-XXL.",
+            "price": 24.99,
+            "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80",
+            "category": "apparel"
+        },
+        {
+            "id": 3,
+            "name": "Daffodil Print Canvas",
+            "description": "Beautiful 16x20 gallery-wrapped canvas featuring original daffodil artwork by local artists.",
+            "price": 49.99,
+            "image": "https://images.unsplash.com/photo-1549911368-2a5ca8f2f0d4?auto=format&fit=crop&w=600&q=80",
+            "category": "art"
+        },
+        {
+            "id": 4,
+            "name": "Foundation Coffee Mug",
+            "description": "11oz ceramic mug with our inspirational message and daffodil design. Dishwasher and microwave safe.",
+            "price": 15.99,
+            "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=600&q=80",
+            "category": "accessories"
+        },
+        {
+            "id": 5,
+            "name": "Annual Membership",
+            "description": "One year membership including quarterly newsletter, event invites, and 10% off all purchases.",
+            "price": 75.00,
+            "image": "https://images.unsplash.com/photo-1554744512-d6c603f27c54?auto=format&fit=crop&w=600&q=80",
+            "category": "membership"
+        },
+        {
+            "id": 6,
+            "name": "Daffodil Note Cards Set",
+            "description": "Set of 12 handcrafted note cards with envelopes, featuring different daffodil varieties.",
+            "price": 18.99,
+            "image": "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?auto=format&fit=crop&w=600&q=80",
+            "category": "stationery"
+        },
+        {
+            "id": 7,
+            "name": "Garden Tool Set",
+            "description": "Professional-grade 3-piece garden tool set with ergonomic handles and carrying case.",
+            "price": 34.99,
+            "image": "https://images.unsplash.com/photo-1617576683096-00fc8eac2d91?auto=format&fit=crop&w=600&q=80",
+            "category": "gardening"
+        },
+        {
+            "id": 8,
+            "name": "Daffodil Seeds Collection",
+            "description": "Collection of 5 different daffodil varieties, perfect for creating a diverse garden display.",
+            "price": 19.99,
+            "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=600&q=80",
+            "category": "gardening"
+        },
+        {
+            "id": 9,
+            "name": "Foundation Tote Bag",
+            "description": "Eco-friendly canvas tote bag with hand-drawn daffodil design. Perfect for shopping or beach trips.",
+            "price": 22.99,
+            "image": "https://images.unsplash.com/photo-1597484662317-9bd7bdda2907?auto=format&fit=crop&w=600&q=80",
+            "category": "accessories"
+        },
+        {
+            "id": 10,
+            "name": "Children's Gardening Kit",
+            "description": "Kid-sized gardening tools, gloves, and educational materials to inspire young gardeners.",
+            "price": 27.99,
+            "image": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&w=600&q=80",
+            "category": "gardening"
+        }
+    ]
+}
